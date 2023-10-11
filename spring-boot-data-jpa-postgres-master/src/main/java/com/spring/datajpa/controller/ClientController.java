@@ -1,4 +1,4 @@
-package com.bezkoder.spring.datajpa.controller;
+package com.spring.datajpa.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bezkoder.spring.datajpa.model.Client;
-import com.bezkoder.spring.datajpa.repository.ClientRepository;
+import com.spring.datajpa.model.Client;
+import com.spring.datajpa.repository.ClientRepository;
 
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController
